@@ -5,7 +5,7 @@ const Navbar = () => {
     const DOCS_LINK = "https://docs.karakeep.app";
     const DEMO_LINK = "https://try.karakeep.app";
   return (
-    <div className='flex justify-between items-center hover:cursor-pointer'>
+    <div className='flex justify-between items-center hover:cursor-pointer my-2'>
         {/* motion div starts here */}
         <motion.div
             whileHover={{
@@ -17,7 +17,7 @@ const Navbar = () => {
                 duration: 1,
             }}
         >
-            <span className='text-2xl font-bold bg-gradient-to-r from-blue-500 to-cyan-500 text-transparent bg-clip-text'>Karakeep</span>
+            <span className='text-2xl font-bold'>Karakeep</span>
         </motion.div>
         {/* motion div ends here */}
         <div className='flex items-center gap-4 text-gray-300'>
