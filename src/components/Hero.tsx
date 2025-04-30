@@ -1,10 +1,11 @@
 import { ArrowDownNarrowWide, Bookmark, BrainCircuit, Play, Server, Sparkles } from "lucide-react"
 import { easeInOut, motion, spring } from "motion/react"
+import HeroScroll from "./HeroScroll";
 
 const Hero = () => {
     const DEMO_LINK = "https://try.karakeep.app";
   return (
-    <div className="flex flex-col justify-center items-center mt-24 text-center gap-6">
+    <div className="flex flex-col justify-center items-center mt-16 text-center gap-6">
         {/* Motion div starts here */}
         <motion.div
             animate={{
@@ -147,6 +148,7 @@ const Hero = () => {
             </motion.a>
         </motion.div>
         {/* motion div ends here */}
+        <HeroScroll />
     </div>
   )
 }
