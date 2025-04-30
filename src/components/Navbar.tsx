@@ -17,7 +17,9 @@ const Navbar = () => {
                 duration: 1,
             }}
         >
-            <span className='text-2xl font-bold'>Karakeep</span>
+            <span className='text-white'>
+                <img src='/karakeep-full.svg' className='w-36' />
+            </span>
         </motion.div>
         {/* motion div ends here */}
         <div className='flex items-center gap-4 text-gray-300'>
@@ -60,7 +62,7 @@ const Navbar = () => {
                 }}
                 href={DEMO_LINK}
                 target='_blank'
-                className='bg-blue-500 p-2 text-sm font-semibold rounded-md hover:cursor-pointer hover:bg-blue-600 hidden sm:flex'
+                className='bg-blue-600 px-3 py-2 text-sm font-semibold rounded-md hover:cursor-pointer hover:bg-blue-500 hidden sm:flex'
                 rel='noreferrer'
             >
                 Try Demo
