@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Killer from "./components/Killer"
 import Features from "./components/Features"
+import Platforms from "./components/Platforms"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Hero />
         <Features />
+        <Platforms />
       </div>
     </div>
   )
