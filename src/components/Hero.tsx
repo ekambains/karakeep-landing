@@ -1,6 +1,7 @@
 import { ArrowDownNarrowWide, Bookmark, BrainCircuit, Play, Server, Sparkles } from "lucide-react"
 import { easeInOut, motion, spring } from "motion/react"
 import HeroScroll from "./HeroScroll";
+import Line from "./Line";
 
 const Hero = () => {
     const DEMO_LINK = "https://try.karakeep.app";
@@ -149,6 +150,7 @@ const Hero = () => {
         </motion.div>
         {/* motion div ends here */}
         <HeroScroll />
+        <Line />
     </div>
   )
 }

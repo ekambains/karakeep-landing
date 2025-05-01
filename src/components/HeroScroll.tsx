@@ -15,6 +15,7 @@ const HeroScroll = () => {
         style={{
             scale: scaleContent,
         }}
+        className="m-4"
     >
         <img src="/Hero.png" alt="Karakeep Dashboard" className="w-270" />
     </motion.div>
