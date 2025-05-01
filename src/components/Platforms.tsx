@@ -12,7 +12,7 @@ const Platforms = () => {
                 Enjoy seamless access with our mobile apps and browser extensions.
             </span>
         </div>
-        <div className="flex flex-wrap justify-between gap-8 mt-10">
+        <div className="flex flex-wrap justify-between gap-8 mt-12">
             <motion.a
                 whileHover={{
                     scale: 1.1,
@@ -97,6 +97,9 @@ const Platforms = () => {
                     </span>
                 </div>
             </motion.a>
+        </div>
+        <div className="mt-20 m-4 relative sm:w-screen w-full">
+            <span className="absolute inset-x-0 bottom-0 bg-gradient-to-r from-gray-700 via-cyan-500 to-gray-700 h-px mx-auto w-full z-10"></span>
         </div>
     </div>
   )

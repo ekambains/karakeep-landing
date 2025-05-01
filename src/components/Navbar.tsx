@@ -5,7 +5,7 @@ const Navbar = () => {
     const DOCS_LINK = "https://docs.karakeep.app";
     const DEMO_LINK = "https://try.karakeep.app";
   return (
-    <div className='flex justify-between items-center hover:cursor-pointer my-2'>
+    <div className='flex justify-between items-center hover:cursor-pointer my-2 mx-2 sm:mx-0'>
         {/* motion div starts here */}
         <motion.div
             whileHover={{
@@ -16,9 +16,10 @@ const Navbar = () => {
                 bounce: 0.7,
                 duration: 1,
             }}
+            className='hover:cursor-pointer'
         >
             <span className='text-white'>
-                <img src='/karakeep-full.svg' className='w-36' />
+                <img src='/karakeep-full.svg' className='w-40' />
             </span>
         </motion.div>
         {/* motion div ends here */}

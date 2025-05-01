@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import Killer from "./components/Killer"
 import Features from "./components/Features"
 import Platforms from "./components/Platforms"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Hero />
         <Features />
         <Platforms />
+        <Footer />
       </div>
     </div>
   )
